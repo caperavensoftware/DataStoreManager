@@ -10,7 +10,7 @@
   "author": "Johan Rabie",
   "license": "ISC",
   "devDependencies": {
-    "build-utilities": "0.0.57"
+    "build-utilities": "0.0.61"
   },
   "jspm": {
     "dependencies": {
