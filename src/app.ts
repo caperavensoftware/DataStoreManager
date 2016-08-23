@@ -16,8 +16,8 @@ export class App {
     }
 
     loadSchema() {
-        const link = document.querySelector("#dataschema");
-        const schema = JSON.parse((<any>document.querySelector("#dataschema")).import.querySelector("body").innerHTML);
+        const link = window.document.querySelector("#dataschema");
+        const schema = JSON.parse((<any>link).import.querySelector("body").innerHTML);
         this.dbStoreManager = new DBStoreManager(schema);
     }
 }

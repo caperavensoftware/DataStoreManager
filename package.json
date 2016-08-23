@@ -18,5 +18,9 @@
       "aurelia-framework": "npm:aurelia-framework@^1.0.1"
     },
     "devDependencies": {}
+  },
+  "dependencies": {
+    "jsdom": "^9.4.2",
+    "mocha-jsdom": "^1.1.0"
   }
 }

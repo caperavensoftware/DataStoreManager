@@ -1,8 +1,17 @@
 import {expect} from 'chai';
+import * as jsdom from 'jsdom';
 import {App} from './../../src/app';
 
 describe('App Tests', function() {
     var app;
+
+    jsdom.env({
+        html: `<link href="dataschema.json" rel="import" id="dataschema">`,
+        done: function(error, window) {
+            if (error) {
+                throw new Error(error.toString())
+            }
+        }});
 
     beforeEach(function() {
         app = new App();

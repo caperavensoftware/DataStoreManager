@@ -4,7 +4,6 @@ export class StoreInitialize {
     }
 
     loadFromSchema(schema) {
-        throw new Error("Please override StoreInitialize: loadFromSchema");
     }
 }
 
