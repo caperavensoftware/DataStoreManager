@@ -1,9 +1,34 @@
 import {expect, assert} from 'chai';
 import * as sinon from 'sinon';
-import {DBStoreManager, StoreInitialize} from './../../src/lib/dbstore-manager';
+import {DBTableSchema, DBStoreTable, DBStoreManager, StoreInitialize} from './../../src/lib/dbstore-manager';
+
+describe('DBTableSchema Tests', function() {
+    let dbTableSchema = null;
+
+    beforeEach(function() {
+        dbTableSchema = new dbTableSchema()
+    });
+
+    it('constructor', function() {
+        expect(dbTableSchema).to.not.be.null;
+    });
+});
+
+describe('DBStoreTable Tests', function() {
+    let dbStoreTable = null;
+
+    beforeEach(function() {
+
+    });
+
+    it('constructor', function() {
+        expect(dbStoreTable).to.not.be.null;
+    });
+});
+
 
 describe('DBStoreManager Tests', function() {
-    var dBStoreManager;
+    let dBStoreManager = null;
 
    beforeEach(function() {
    });
@@ -14,8 +39,8 @@ describe('DBStoreManager Tests', function() {
 });
 
 describe('StoreInitialize Tests', function(){
-    var storeInitialize;
-    var schema = {
+    let storeInitialize = null;
+    let schema = {
         id: 10
     };
 

@@ -17,8 +17,11 @@
     "devDependencies": {}
   },
   "dependencies": {
-    "build-utilities": "0.0.67",
+    "build-utilities": "0.0.69",
     "jsdom": "^9.4.2",
     "mocha-jsdom": "^1.1.0"
+  },
+  "devDependencies": {
+    "build-utilities": "0.0.69"
   }
 }
