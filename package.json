@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "Johan Rabie",
   "license": "ISC",
-  "devDependencies": {
-    "build-utilities": "0.0.61"
-  },
   "jspm": {
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
@@ -20,6 +17,7 @@
     "devDependencies": {}
   },
   "dependencies": {
+    "build-utilities": "0.0.67",
     "jsdom": "^9.4.2",
     "mocha-jsdom": "^1.1.0"
   }
